@@ -34,23 +34,40 @@ input {
     margin-top: 10px;
 }
 
-#input-btn {
+#input-btn,
+#delete-btn {
     color: white;
     padding: 5px 10px;
     background-color: #5f9341;
     border: #5f9341 1px solid;
     margin-top: 5px;
     border: none;
+    font-weight: bold;
+    transition: 0.4s;
 }
 
 #input-btn:hover {
     background-color: #016f32;
     cursor: pointer;
 }
-#input-btn:active {
-    background-color: #5f9341;
+
+
+
+#delete-btn {
+    background-color:white ;
+    color: #5f9341;
+    border: #5f9341 1px solid;
+
 }
 
-img {
-    width: 50px;
+#delete-btn:hover {
+    background-color: #213d09;
+    color: white;
+    cursor: pointer;
+}
+#input-btn:active, 
+#delete-btn:active {
+    background-color: #b6b8b5;
+    transition: 0.1s;
+
 }
