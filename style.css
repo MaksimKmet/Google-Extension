@@ -35,6 +35,7 @@ input {
 }
 
 #input-btn,
+#tab-btn,
 #delete-btn {
     color: white;
     padding: 5px 10px;
@@ -45,8 +46,8 @@ input {
     font-weight: bold;
     transition: 0.4s;
 }
-
-#input-btn:hover {
+#input-btn:hover, 
+    #tab-btn:hover {
     background-color: #016f32;
     cursor: pointer;
 }
